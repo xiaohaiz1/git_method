@@ -165,7 +165,7 @@
       1. 方法1,输入命令: ` git reset --hard HEAD^`
 
          1. HEAD 指向当前版本, HEAD^ 前一个版本
-         2. HEAD~1 前一个版本,HEAD~100 当前版本的前100版本
+         2. `HEAD~1` 前一个版本,HEAD~100 当前版本的前100版本
       2. 方法2, 返回到指定版本: `git reset --hard 版本序列号`
          1. `git log` 查看git日志
             1. commit `ba37943ec8b588b3c121f 79028ce373cd57b7f1e` #版本号
